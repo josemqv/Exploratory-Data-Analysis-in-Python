@@ -1,0 +1,7 @@
+import pandas as pd
+
+# Compute the PMF for year
+pmf_year = Pmf(gss["year"], normalize=True)
+
+# Print the result
+print(pmf_year)
